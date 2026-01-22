@@ -14,3 +14,18 @@ if(money>300){
         console.log('tui kisui pabi na');
     }
 }
+// Ternary operator example
+
+function getFace(isNumber){
+    return isNumber ? '10k':'5k';
+}
+let result = getFace(true);
+console.log(result);
+let falseResult = getFace(false);
+console.log(falseResult);
+console.log(getFace(null));
+console.log(getFace(undefined));
+console.log(getFace(NaN));
+console.log(getFace(0));
+console.log(getFace(""));
+/* false value:-null,NaN,undifind,0,"",*/
