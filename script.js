@@ -29,3 +29,13 @@ console.log(getFace(NaN));
 console.log(getFace(0));
 console.log(getFace(""));
 /* false value:-null,NaN,undifind,0,"",*/
+const newFunk = (a,b)=>{
+    return a+b;
+}
+console.log(newFunk(10,11));
+
+const arroyFunk = (person)=>{
+    const name = person ? person.name:'stranger';
+    return `Howd,${name}`;
+}
+console.log(arroyFunk({name:'Alice'}));
