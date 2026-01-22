@@ -63,3 +63,10 @@ if(!isPass){
 }else{
     console.log('tor a biya bia dibo');
 }
+
+// Logicla not use case for string and emty string
+
+let a = 'hi';
+console.log(!a);
+let b ="";
+console.log(!b);
