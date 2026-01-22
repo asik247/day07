@@ -70,3 +70,16 @@ let a = 'hi';
 console.log(!a);
 let b ="";
 console.log(!b);
+
+// Comparison ar sate ! operation:-
+let isTrue = true
+if(!isTrue===true){
+    console.log('yes right');
+}else{
+    console.log('not right');
+}
+if(!isTrue===false){
+    console.log('True');
+}else{
+    console.log('False');
+}
