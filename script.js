@@ -51,3 +51,15 @@ const leadder = false;
 
 taka = leadder === true ? taka>1000?taka =taka/2:0:taka+1000;
 console.log(taka);
+
+let heyLeadder = true;
+if(heyLeadder){
+    console.log('leader asche chair caro');
+}
+
+const isPass = true
+if(!isPass){
+    console.log('tumi amer noyon ar moni');
+}else{
+    console.log('tor a biya bia dibo');
+}
