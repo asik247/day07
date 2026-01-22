@@ -45,3 +45,9 @@ const isLeader = true;
 const hasCar = false
 const totla = isLeader === true || hasCar=== true ?prices = 0 : prices = prices + 100;
 console.log(totla);
+
+let taka = 5000;
+const leadder = false;
+
+taka = leadder === true ? taka>1000?taka =taka/2:0:taka+1000;
+console.log(taka);
