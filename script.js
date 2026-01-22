@@ -39,3 +39,9 @@ const arroyFunk = (person)=>{
     return `Howd,${name}`;
 }
 console.log(arroyFunk({name:'Alice'}));
+
+let prices = 500;
+const isLeader = true;
+const hasCar = false
+const totla = isLeader === true || hasCar=== true ?prices = 0 : prices = prices + 100;
+console.log(totla);
