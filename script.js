@@ -99,3 +99,11 @@ for(let i = 0; i < myArray.length; i++){
 for(let i = 1; i <= 5; i++){
     console.log('Hello',i);
 }
+// Even number use for loop.
+for(let i = 2; i <= 10; i += 2){
+    console.log("Even Numb:-",i);
+}
+
+// for (let i = 2; i <= 10; i += 2) {
+//     console.log(i);
+// }
