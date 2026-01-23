@@ -83,3 +83,19 @@ if(!isTrue===false){
 }else{
     console.log('False');
 }
+
+
+// for loop started.....
+
+for (let i = 0; i<10;i++){
+    console.log(i);
+}
+
+let myArray = [10,20,30,40,50];
+for(let i = 0; i < myArray.length; i++){
+    console.log(i);
+}
+// print hello 5 times:
+for(let i = 1; i <= 5; i++){
+    console.log('Hello',i);
+}
