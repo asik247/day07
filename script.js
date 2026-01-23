@@ -107,3 +107,6 @@ for(let i = 2; i <= 10; i += 2){
 // for (let i = 2; i <= 10; i += 2) {
 //     console.log(i);
 // }
+for (let l = 10; l >= 1; l--){
+    console.log(l);
+}
