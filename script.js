@@ -110,3 +110,30 @@ for(let i = 2; i <= 10; i += 2){
 for (let l = 10; l >= 1; l--){
     console.log(l);
 }
+let name = "asik"
+for(let result of name){
+    console.log(result);
+}
+// Nested for loop:-
+// for (let i = 0; i<=5; i++){
+//     for(let j = 2; i < 5; j++){
+//         console.log(`i value is:${i},j value is:${j}`);
+//     }
+// }
+
+for (let i = 1; i <= 3; i++) {
+    for (let j = 1; j <= 2; j++) {
+        // console.log(`i=${i}, j=${j}`);
+        console.log(j,i);
+    }
+}
+
+let cartPrices = [100,50,5000];
+let totalPrice = 0;
+for (let prices of cartPrices){
+    totalPrice +=prices;
+    // totalPrice = totalPrice+prices
+}
+console.log(totalPrice);
+
+console.log("hi boss how are you!");
