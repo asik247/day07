@@ -137,3 +137,9 @@ for (let prices of cartPrices){
 console.log(totalPrice);
 
 console.log("hi boss how are you!");
+let fruits = ['apple','banana','gohava','carrot','strovirey','kola'];
+
+for (const fruit of fruits){
+    console.log(fruit);
+    console.log('I want to eat');
+}
